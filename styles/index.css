@@ -1,15 +1,26 @@
-.top-links{
-    padding: 20px;
-    align-content: center;
-    align-self: center;
-    display: flex;
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
-.link{
-    margin: 10px;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aqua;
-    padding: 10px;
-    border: 3px solid #c630fc;
+.header {
+    background-color: #1f2937;
+    display: flex;
+    font-family: "Roboto";
+    padding: 13px;
+    gap: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: right;
 }
