@@ -8,19 +8,47 @@
 
 .header {
     background-color: #1f2937;
-    display: flex;
     font-family: "Roboto";
     padding: 13px;
     gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
+    justify-content: left;
+    flex: 1;
+    padding: 10px;
 }
 
-.header-link {
+.header-logo a {
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+}
+
+.header-links .header-link {
+    padding: 10px;
+}
+
+.header-links .header-link a {
     font-size: 18px;
     color: #e5e7eb;
-    justify-content: right;
+    text-decoration: none;
+}
+
+.header-links .header-link:hover {
+    background-color: rgb(47, 161, 243);
+    border-radius: 5px;
+}
+
+.header-links .header-link a:hover {
+    color: #e5e7eb;
 }
