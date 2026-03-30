@@ -6,6 +6,8 @@
     font-display: swap;
 }
 
+/* Header Area */
+
 .header {
     background-color: #1f2937;
     font-family: "Roboto";
@@ -53,6 +55,8 @@
     color: #e5e7eb;
 }
 
+/* Hero Area */
+
 .hero-area {
     display: flex;
     padding: 50px;
@@ -97,4 +101,29 @@
 
 .hero-area .hero-info .hero-button button:focus {
     box-shadow: 0 0 0 3px rgba(0, 122, 204, 0.25);
+}
+
+/* Collection Area */
+
+.collection-area {
+    background-color: white;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection-area .collections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collection-area .collections .item{
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-area .collections .item .item-image img{
+    width: 150px;
 }
