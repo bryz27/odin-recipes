@@ -52,3 +52,26 @@
 .header-links .header-link a:hover {
     color: #e5e7eb;
 }
+
+.hero-area {
+    display: flex;
+    padding: 50px;
+    font-family: "Roboto";
+    background-color: #1f2937;
+}
+
+.hero-area .hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.hero-area .hero-info .hero-title {
+    color: white;
+}
+
+.hero-area .hero-info .hero-subtitle {
+    color: white;
+}
