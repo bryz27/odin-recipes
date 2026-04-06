@@ -136,13 +136,22 @@
     border-radius: 20px;
 }
 
-.collection-area .collections .item .item-info p {
+.collection-area .collections .item .item-info {
+    text-align: center;
+}
+
+.collection-area .collections .item .item-info a p {
     position: static;
     float: none;
 }
 
+.collection-area .collections .item .item-info a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Footer area */
-.footer{
+.footer {
     background-color: #1f2937;
     position: static;
     clear: both;
