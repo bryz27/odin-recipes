@@ -141,9 +141,11 @@
     float: none;
 }
 
-
+/* Footer area */
 .footer{
     background-color: #1f2937;
     position: static;
     clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
