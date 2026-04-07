@@ -71,6 +71,11 @@
     display: flex;
 }
 
+.recipe-hero .recipe-face .recipe-img img{
+    width: 310px;
+    height: 240px;
+}
+
 .recipe-hero .recipe-face .recipe-desc{
     display: flex;
     flex-direction: column;
