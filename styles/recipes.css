@@ -85,3 +85,20 @@
     flex-direction: column;
     padding-top: 30px;
 }
+
+
+/* Recipe Text Area */
+.recipe-texts {
+    font-family: "Roboto";
+    padding-inline: 30px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.recipe-texts .ingredients {
+    flex: 0 0 35%;
+}
+
+.recipe-texts .steps{
+    flex: 0 0 60%;
+}
