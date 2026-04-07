@@ -53,3 +53,25 @@
 .header-links .header-link a:hover {
     color: #e5e7eb;
 }
+
+/* Recipe Hero Area */
+.recipe-hero {
+    font-family: "Roboto";
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-hero .recipe-title {
+    padding-inline: 30px;
+}
+
+.recipe-hero .recipe-face {
+    display: flex;
+}
+
+.recipe-hero .recipe-face .recipe-desc{
+    display: flex;
+    flex-direction: column;
+}
