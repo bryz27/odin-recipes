@@ -71,12 +71,17 @@
     display: flex;
 }
 
-.recipe-hero .recipe-face .recipe-img img{
-    width: 310px;
-    height: 240px;
+.recipe-hero .recipe-face .recipe-img {
+    padding: 30px;
 }
 
-.recipe-hero .recipe-face .recipe-desc{
+.recipe-hero .recipe-face .recipe-img img {
+    width: 720px;
+    height: 450px;
+}
+
+.recipe-hero .recipe-face .recipe-desc {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
